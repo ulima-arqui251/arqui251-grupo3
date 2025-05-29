@@ -20,7 +20,7 @@ Los microfrontends tienen un concepto similar a los microservicios, es decir, so
 
 El microfrontend es un tipo de arquitectura donde se divide una aplicación web en diferentes módulos o funciones individuales, implementados de manera autónoma, permitiendo a los equipos de frontend el mismo nivel de flexibilidad y velocidad que los microservicios brindan a los equipos de backend.
 
-![microfrotend1](/0/0.7/assets/microfrontend1.png)
+![microfrotend1](/0/0.7/StevenPizarro/microfrontend1.png)
 
 Su finalidad es eliminar la dependencia entre los equipos de trabajo, que ralentiza el desarrollo e incrementa la complejidad del producto digital.
 
@@ -34,7 +34,7 @@ Cada microfrontend está compuesto por múltiples componentes independientes y m
 
 Además de los componentes que presentan contenido, un microfrontend puede incluir componentes utilitarios que permiten la interacción con el entorno de la aplicación, ya sea con el usuario u otros componentes del sistema.
 
-![microfrotend1](/0/0.7/assets/microfrotend2.png)
+![microfrotend1](/0/0.7/StevenPizarro/microfrotend2.png)
 
 #### Tipos de microfrontends
 
