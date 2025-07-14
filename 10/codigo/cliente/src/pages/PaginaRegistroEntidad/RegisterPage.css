@@ -1,0 +1,87 @@
+/* RegisterPage.css - Estilo Corporativo Deportivo */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Azul oscuro deportivo */
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 30px auto;
+    background: #f8f9fa; /* Fondo claro elegante */
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #28a745; /* Verde lima moderno */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #ced4da;
+    border-radius: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #28a745; /* Verde lima en foco */
+    outline: none;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #28a745; /* Verde lima */
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #218838; /* Verde más oscuro */
+    transform: scale(1.02);
+}
+
+@media (max-width: 600px) {
+    form {
+        margin: 20px;
+        padding: 20px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+}

@@ -1,0 +1,85 @@
+/* ProveedoresTablaEditable.css - Estilo Deportivo y Moderno */
+
+.tabla-contenedor h2 {
+    color: #2c5364; /* Azul oscuro solo dentro del contenedor */
+}
+
+
+table {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+th {
+    background-color: #2c5364; /* Azul oscuro */
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 14px;
+    border: 2px solid #ced4da;
+    border-radius: 10px;
+    transition: border 0.3s ease;
+    box-sizing: border-box;
+}
+
+input:focus {
+    border-color: #28a745; /* Verde lima */
+    outline: none;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s;
+    min-width: 100px;
+}
+
+button:hover {
+    background-color: #218838;
+    transform: scale(1.03);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    th, td {
+        padding: 10px;
+        border: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        background-color: #ffffff;
+    }
+}
